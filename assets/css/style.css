@@ -1,4 +1,27 @@
+:root {
+    --main-color: #097ae9;
+    --main-rgb-color: 9, 122, 233;
+}
+
 body {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Syne", "Changa", sans-serif;
+}
+
+a,
+a:hover {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.bx {
+    vertical-align: -1px;
+    font-size: inherit;
+}
+
+.topbar {
+    color: white;
+    padding: 8px 0;
+    background-color: var(--main-color);
 }
