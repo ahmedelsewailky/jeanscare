@@ -115,3 +115,10 @@ a:hover {
     left: 0;
     top: 0;
 }
+
+.carousel-caption {
+    top: 50%;
+    left: 10%;
+    right: auto;
+    text-align: left;
+}
