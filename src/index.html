@@ -22,7 +22,7 @@
     <div id="app">
         <div class="app-wrapper">
             <!-- Topbar -->
-            <div class="topbar">
+            <div class="topbar d-none d-md-block">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -47,6 +47,42 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                            <path fill="#097ae9"
+                                d="M256 42c-33.88 0-64-10-64-10v2a64 64 0 0 0 128 0v-2s-30.12 10-64 10" />
+                            <path fill="#ffb703"
+                                d="M352 44c-5.49 47.76-46.79 85-96 85s-90.51-37.24-96-85L16 94l18 114l61.71 7.42c7.08.9 7.1.9 7.1 8.19L96 480h320l-6.81-256.39c-.21-7-.21-7 7.1-8.19L478 208l18-114Z" />
+                        </svg> JeansCare
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <a href="/pages/contact.html" class="btn btn-dark d-none d-lg-block">Schedule a Pickup</a>
+                    </div>
+                </div>
+            </nav>
         </div>
     </div>
 
