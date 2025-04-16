@@ -60,15 +60,15 @@ a:hover {
         width: 0;
         height: 2px;
         background-color: var(--dark-color);
-        left: 50%;
-        transform: translateX(-50%);
+        right: 0;
+        left: 16px;
         bottom: -2px;
         transition: 0.3s ease;
     }
 
     .navbar .nav-link.active::after,
     .navbar .nav-link:hover::after {
-        width: 75%;
+        width: 35%;
     }
 }
 
